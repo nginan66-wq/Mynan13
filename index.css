@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Prompt', 'Noto Sans JP', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Subtle Japanese textured accents */
+.bg-cream-canvas {
+  background-color: #FAF7F2;
+}
+
+.bg-cream-surface {
+  background-color: #F4EFEB;
+}
+
+/* Hanko seal stamp aesthetic */
+.hanko-stamp {
+  border: 1.5px solid #991B1B;
+  color: #991B1B;
+  border-radius: 4px;
+  font-family: 'Noto Sans JP', serif;
+}
